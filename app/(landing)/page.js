@@ -29,6 +29,9 @@ export default function Home() {
       {/* Radial Hero Section with Red Background */}
       <RadialHero />
 
+      {/* Figma Section - Exact Match */}
+      <FigmaSection />
+
       {/* About MOMO Section */}
       <AboutMomo />
 
