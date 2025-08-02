@@ -19,7 +19,7 @@ const FigmaHeader = () => {
   const handleNavClick = (href) => {
     setMobileMenuOpen(false);
     // Smooth scroll to section
-    document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -43,7 +43,10 @@ const FigmaHeader = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-start gap-8">
             {navigationItems.map((item) => (
-              <div key={item.name} className="flex flex-col items-start self-stretch relative">
+              <div
+                key={item.name}
+                className="flex flex-col items-start self-stretch relative"
+              >
                 <a
                   href={item.href}
                   className="text-black font-inter text-sm font-semibold leading-5 relative hover:text-gray-600 transition-colors"
@@ -60,13 +63,21 @@ const FigmaHeader = () => {
             className="md:hidden flex flex-col items-center justify-center w-8 h-8 space-y-1 focus:outline-none"
             aria-label="Toggle mobile menu"
           >
-            <span className={`block w-6 h-0.5 bg-black transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
-            <span className={`block w-6 h-0.5 bg-black transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : ''}`}></span>
-            <span className={`block w-6 h-0.5 bg-black transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
+            <span
+              className={`block w-6 h-0.5 bg-black transition-all duration-300 ${mobileMenuOpen ? "rotate-45 translate-y-1.5" : ""}`}
+            ></span>
+            <span
+              className={`block w-6 h-0.5 bg-black transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : ""}`}
+            ></span>
+            <span
+              className={`block w-6 h-0.5 bg-black transition-all duration-300 ${mobileMenuOpen ? "-rotate-45 -translate-y-1.5" : ""}`}
+            ></span>
           </button>
 
           {/* Social Icons - Hidden on mobile when menu is open */}
-          <div className={`h-10 items-start gap-4 md:gap-8 ${mobileMenuOpen ? 'hidden md:flex' : 'hidden md:flex'}`}></div>
+          <div
+            className={`h-10 items-start gap-4 md:gap-8 ${mobileMenuOpen ? "hidden md:flex" : "hidden md:flex"}`}
+          ></div>
         </div>
       </header>
 
