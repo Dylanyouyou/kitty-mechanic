@@ -9,6 +9,7 @@ import Contract from "./_components/Contract";
 import About from "./_components/About";
 import AboutMomo from "./_components/AboutMomo";
 import ContractSection from "./_components/ContractSection";
+import RadialHero from "./_components/RadialHero";
 import Tokenomics from "./_components/Tokenomics";
 import Exchanges from "./_components/Exchanges";
 import HowToBuy from "./_components/HowToBuy";
