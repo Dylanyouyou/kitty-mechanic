@@ -5,7 +5,7 @@ import React from "react";
 const FigmaHeader = () => {
   return (
     <header className="fixed top-5 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-6xl px-4">
-      <div className="flex w-full h-auto px-6 py-3.5 items-center justify-between relative rounded-full border-2 border-black bg-duis shadow-[6px_6px_0_0_#000] backdrop-blur-md">
+      <div className="flex w-full h-auto px-6 py-3.5 items-center justify-between relative rounded-full border-2 border-black bg-duis shadow-[6px_6px_0_0_#000] backdrop-blur-md sm:pr-6 sm:mx-0 pr-[25px] mx-[13px] -mt-[3px] ml-[2px]">
         {/* Logo Section */}
         <div className="flex justify-end items-center gap-2 relative">
           <img
