@@ -70,16 +70,16 @@ const FigmaSection = () => {
 
           {/* Navigation Header */}
           <div className="font-normal relative z-20 pointer-events-auto">
-            <div className="font-normal max-w-5xl w-full pointer-events-auto mx-auto px-6 pt-[49px] pb-6">
-              <div className="flex items-center font-normal gap-8 justify-between pointer-events-auto">
-                <div className="flex items-center font-normal gap-4 pointer-events-auto">
+            <div className="font-normal max-w-6xl w-full pointer-events-auto mx-auto px-4 sm:px-6 pt-[49px] pb-6">
+              <div className="flex flex-col lg:flex-row items-center font-normal gap-4 lg:gap-8 justify-between pointer-events-auto">
+                <div className="flex items-center font-normal gap-3 sm:gap-4 pointer-events-auto">
                   <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/8dc1293a36ff825d9439d5380f5d3d7d44c17d0e?width=150"
                     alt="Kitty Logo"
-                    className="block rounded-full font-normal h-[75px] object-cover w-[75px] pointer-events-auto"
+                    className="block rounded-full font-normal h-[60px] sm:h-[75px] object-cover w-[60px] sm:w-[75px] pointer-events-auto"
                   />
-                  <h1 
-                    className="text-white font-luckiest-guy text-[45px] font-normal leading-[40px]"
+                  <h1
+                    className="text-white font-luckiest-guy text-[35px] sm:text-[45px] font-normal leading-[35px] sm:leading-[40px]"
                     style={{
                       color: "#ffffff",
                       textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000"
@@ -88,35 +88,34 @@ const FigmaSection = () => {
                     KITTY
                   </h1>
                 </div>
-                
+
                 {/* Navigation Menu */}
-                <div className="flex items-center bg-[#DDD6CC] font-normal justify-end pointer-events-auto p-3">
+                <div className="flex items-center bg-[#DDD6CC] font-normal justify-center lg:justify-end pointer-events-auto p-2 sm:p-3 rounded">
                   <a
                     href="#about"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                    className="text-black transition-colors font-luckiest-guy text-[16px] sm:text-[20px] lg:text-[22px] font-normal leading-[20px] sm:leading-[28px] px-2 sm:px-4 lg:px-6 py-2 sm:py-3"
                   >
                     ABOUT
                   </a>
                   <a
                     href="#contract"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                    className="text-black transition-colors font-luckiest-guy text-[16px] sm:text-[20px] lg:text-[22px] font-normal leading-[20px] sm:leading-[28px] px-2 sm:px-4 lg:px-6 py-2 sm:py-3"
                   >
                     CONTRACT
                   </a>
                   <a
                     href="#tokenomics"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                    className="text-black transition-colors font-luckiest-guy text-[16px] sm:text-[20px] lg:text-[22px] font-normal leading-[20px] sm:leading-[28px] px-2 sm:px-4 lg:px-6 py-2 sm:py-3"
                   >
                     TOKENOMICS
                   </a>
                   <a
                     href="#buy"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                    className="text-black transition-colors font-luckiest-guy text-[16px] sm:text-[20px] lg:text-[22px] font-normal leading-[20px] sm:leading-[28px] px-2 sm:px-4 lg:px-6 py-2 sm:py-3"
                   >
                     HOW TO BUY
                   </a>
                 </div>
-                <nav className="font-normal pointer-events-auto" />
               </div>
             </div>
           </div>
