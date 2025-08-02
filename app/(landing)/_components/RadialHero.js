@@ -61,13 +61,15 @@ const RadialHero = () => {
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 ml-[13px]">
         {/* Central Cat Image */}
         <div className="relative mb-8 sm:mb-12">
-          <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-black overflow-hidden shadow-[8px_8px_0_0_#000] bg-white">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F948aca18f17d4257a45a8b934c327059%2Fc7c05288d837493fbe847514c96f7a10?format=webp&width=800"
-              alt="Kitty Mechanic"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          <div
+            className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-black overflow-hidden shadow-[8px_8px_0_0_#000] bg-white"
+            style={{
+              backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2F948aca18f17d4257a45a8b934c327059%2Fc03ce08a963a449abd12437cf13486db)",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover"
+            }}
+          />
         </div>
 
         {/* Text */}
