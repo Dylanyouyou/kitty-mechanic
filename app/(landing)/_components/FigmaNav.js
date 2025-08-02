@@ -13,11 +13,12 @@ const FigmaNav = () => {
             alt="Kitty Logo"
             className="w-16 h-16 sm:w-[75px] sm:h-[75px] rounded-full object-cover"
           />
-          <h1 
+          <h1
             className="text-white text-3xl sm:text-4xl lg:text-[45px] font-normal leading-tight font-luckiest-guy"
             style={{
-              textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
-              WebkitTextStroke: "4px #000"
+              textShadow:
+                "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
+              WebkitTextStroke: "4px #000",
             }}
           >
             KITTY

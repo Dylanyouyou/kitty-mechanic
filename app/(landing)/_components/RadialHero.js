@@ -51,7 +51,12 @@ const RadialHero = () => {
                 <stop offset="1" stopOpacity="0" />
               </radialGradient>
               <clipPath id="clip0_61_263">
-                <rect width="2400" height="1981.04" fill="white" transform="translate(0 0.479416)" />
+                <rect
+                  width="2400"
+                  height="1981.04"
+                  fill="white"
+                  transform="translate(0 0.479416)"
+                />
               </clipPath>
             </defs>
           </svg>
@@ -67,7 +72,6 @@ const RadialHero = () => {
       <div className="relative z-10 flex-1 flex items-center justify-center">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-center min-h-[60vh]">
-            
             {/* Left Column - Social Icons */}
             <div className="flex lg:flex-col flex-row justify-center lg:justify-start items-center gap-4 lg:gap-6 order-3 lg:order-1">
               {/* X (Twitter) */}
@@ -107,7 +111,12 @@ const RadialHero = () => {
                   </g>
                   <defs>
                     <clipPath id="clip0_61_313">
-                      <rect width="24" height="24" fill="white" transform="translate(2.09039 0.50354) rotate(5)" />
+                      <rect
+                        width="24"
+                        height="24"
+                        fill="white"
+                        transform="translate(2.09039 0.50354) rotate(5)"
+                      />
                     </clipPath>
                   </defs>
                 </svg>
@@ -136,7 +145,12 @@ const RadialHero = () => {
                   </g>
                   <defs>
                     <clipPath id="clip0_61_317">
-                      <rect width="26" height="26" fill="white" transform="translate(0.920166 2.6814) rotate(-5)" />
+                      <rect
+                        width="26"
+                        height="26"
+                        fill="white"
+                        transform="translate(0.920166 2.6814) rotate(-5)"
+                      />
                     </clipPath>
                   </defs>
                 </svg>
@@ -146,13 +160,14 @@ const RadialHero = () => {
             {/* Middle Column - Cat Image */}
             <div className="flex flex-col items-center justify-center text-center order-1 lg:order-2">
               <div className="relative mb-6 sm:mb-8">
-                <div 
+                <div
                   className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[384px] lg:h-[384px] rounded-full border-4 border-black overflow-hidden shadow-[8px_8px_0_0_#000] bg-white"
                   style={{
-                    backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2F948aca18f17d4257a45a8b934c327059%2Fc03ce08a963a449abd12437cf13486db)",
+                    backgroundImage:
+                      "url(https://cdn.builder.io/api/v1/image/assets%2F948aca18f17d4257a45a8b934c327059%2Fc03ce08a963a449abd12437cf13486db)",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
-                    backgroundSize: "cover"
+                    backgroundSize: "cover",
                   }}
                 />
               </div>
@@ -168,7 +183,10 @@ const RadialHero = () => {
               <div>
                 <button
                   className="transform rotate-[-4deg] hover:rotate-0 transition-transform duration-200 px-6 py-4 sm:px-8 sm:py-5 bg-red-600 border-4 border-black text-white font-luckiest-guy text-xl sm:text-2xl lg:text-[30px] tracking-wider shadow-[4px_4px_0_0_#000] hover:shadow-[6px_6px_0_0_#000] hover:translate-y-[-2px] transition-all"
-                  style={{ fontFamily: "Luckiest Guy, -apple-system, Roboto, Helvetica, sans-serif" }}
+                  style={{
+                    fontFamily:
+                      "Luckiest Guy, -apple-system, Roboto, Helvetica, sans-serif",
+                  }}
                 >
                   BUY NOW
                 </button>
