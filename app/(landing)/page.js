@@ -25,6 +25,9 @@ export default function Home() {
       {/* New Figma Hero Section */}
       <Hero />
 
+      {/* Radial Hero Section with Red Background */}
+      <RadialHero />
+
       {/* About MOMO Section */}
       <AboutMomo />
 
