@@ -26,10 +26,8 @@ const Hero = () => {
             style={{ marginTop: "-2px" }}
           >
             <h1
-              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight"
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight font-stopbuck"
               style={{
-                fontFamily:
-                  'var(--font-luckiest-guy), "Luckiest Guy", -apple-system, Roboto, Helvetica, sans-serif',
                 color: "#C42B10",
                 textShadow: `
                   4px 4px 0 #000, 
