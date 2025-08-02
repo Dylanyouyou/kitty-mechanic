@@ -69,7 +69,7 @@ const FigmaSection = () => {
 
           {/* Navigation Header */}
           <div className="font-normal relative z-20 pointer-events-auto">
-            <div className="font-normal max-w-5xl w-full pointer-events-auto mx-auto px-6 py-6">
+            <div className="font-normal max-w-5xl w-full pointer-events-auto mx-auto px-6 pt-[49px] pb-6">
               <div className="flex items-center font-normal gap-8 justify-between pointer-events-auto">
                 <div className="flex items-center font-normal gap-4 pointer-events-auto">
                   <img
@@ -143,7 +143,7 @@ const FigmaSection = () => {
                       href="https://x.com/kittymechanic_"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center bg-gray-800 rounded justify-center w-12 h-12 transform rotate-[5deg] transition-transform duration-200 hover:rotate-0 hover:scale-110"
+                      className="flex items-center bg-black rounded justify-center w-12 h-12 transform rotate-[5deg] transition-transform duration-200 hover:rotate-0 hover:scale-110"
                     >
                       <svg width="24" height="24" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_61_313)">
@@ -160,7 +160,7 @@ const FigmaSection = () => {
                       href="https://www.instagram.com/kittymechanicc/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center bg-gray-800 rounded justify-center w-12 h-12 transform rotate-[-5deg] transition-transform duration-200 hover:rotate-0 hover:scale-110"
+                      className="flex items-center bg-black rounded justify-center w-12 h-12 transform rotate-[-5deg] transition-transform duration-200 hover:rotate-0 hover:scale-110"
                     >
                       <svg width="24" height="24" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_61_313)">
