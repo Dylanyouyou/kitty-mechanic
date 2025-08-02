@@ -11,7 +11,20 @@ export const metadata = {
   title: "Kitty The Mechanic | Solana",
   description: "Kity is forever on Solana",
   icons: {
-    icon: "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=webp&width=800",
+    icon: [
+      {
+        url: "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=webp&width=32",
+        sizes: "32x32",
+        type: "image/webp",
+      },
+      {
+        url: "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=png&width=32",
+        sizes: "32x32",
+        type: "image/png",
+      },
+    ],
+    shortcut: "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=png&width=32",
+    apple: "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=png&width=180",
   },
 };
 
