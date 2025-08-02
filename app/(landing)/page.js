@@ -20,66 +20,8 @@ import Footer from "./_components/Footer";
 export default function Home() {
   return (
     <>
-      {/* New Figma Header */}
-      <FigmaHeader />
-
-      {/* New Figma Hero Section */}
-      <Hero />
-
-      {/* Radial Hero Section with Red Background */}
-      <RadialHero />
-
-      {/* Figma Section - Exact Match */}
+      {/* Figma Section - Exact Match with Menu */}
       <FigmaSection />
-
-      {/* About MOMO Section */}
-      <AboutMomo />
-
-      {/* Red Divider */}
-      <span className="block bg-duis h-[3px] border-[9.6px] border-red-900"></span>
-
-      {/* Contract Section */}
-      <ContractSection />
-
-      {/* Original sections restored */}
-      <div className="bg-[#e4e0e1] -mt-1">
-        <div className="relative">
-          <span className="block bg-duis flex-1 h-[3px] border-[10px] border-solid border-red-900"></span>
-        </div>
-
-        <div className="max-w-[85rem] mx-auto py-12 text-gray-200 bg-white bg-opacity-5">
-          <div
-            className="my-16 text-white text-center text-6xl font-luckiest-guy sm:text-6xl text-[50px] sm:text-white text-duis"
-            style={{
-              textShadow:
-                "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
-            }}
-          >
-            <p>TOKENOMICS</p>
-          </div>
-          <Tokenomics />
-        </div>
-
-        <div className="max-w-[85rem] mx-auto mt-24">
-          <span className="flex items-center">
-            <div></div>
-          </span>
-        </div>
-        <span className="block bg-duis flex-1 h-[3px] border-[10px] border-solid border-red-900"></span>
-
-        <div className="max-w-[85rem] mx-auto py-12 text-gray-200">
-          <HowToBuy />
-        </div>
-        <div className="text-center">
-          <div className="flex justify-center"></div>
-          <div className="mt-5">
-            <p className="font-stopbuck text-2xl text-black">Meow! Meow!</p>
-          </div>
-        </div>
-        {/* <WallOfLove /> */}
-        <div className="flex justify-start pl-4"></div>
-        <Footer />
-      </div>
     </>
   );
 }
