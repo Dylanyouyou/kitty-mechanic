@@ -7,7 +7,7 @@ const HowToBuy = () => {
     <div id="buy" className="max-w-[85rem] mx-auto p-12">
       <div className="my-16">
         <div
-          className="text-center text-6xl font-luckiest-guy mb-8"
+          className="text-center text-6xl font-luckiest-guy mb-8 sm:text-6xl text-[50px] sm:mb-8 -mb-[2px]"
           style={{
             color: "rgba(196, 43, 16, 1)",
             textShadow:
@@ -20,7 +20,7 @@ const HowToBuy = () => {
           className="font-stopbuck text-6xl text-duis text-center"
           style={{ textShadow: "4px 0 5px rgba(255, 255, 255, 1)" }}
         ></h2>
-        <h3 className="font-stopbuck text-2xl text-center text-black">
+        <h3 className="font-stopbuck text-2xl text-center text-black sm:pt-0 pt-[10px] sm:text-2xl text-[18px]">
           {`Just 4️⃣ steps to get rich 🤑`}
         </h3>
       </div>
