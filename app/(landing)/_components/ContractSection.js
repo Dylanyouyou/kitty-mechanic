@@ -51,7 +51,7 @@ const ContractSection = () => {
   return (
     <section
       id="contract"
-      className="flex w-full justify-center items-center"
+      className="flex w-full justify-center items-center sm:pr-32 pr-[127px]"
       style={{
         backgroundColor: "rgba(228, 224, 225, 1)",
         padding: "84px 128px 108px",
@@ -61,7 +61,7 @@ const ContractSection = () => {
         {/* CONTRACT Heading */}
         <div className="flex flex-col items-center">
           <div
-            className="my-16 text-center text-6xl font-luckiest-guy"
+            className="my-16 text-center text-6xl font-luckiest-guy sm:text-6xl text-[50px]"
             style={{
               color: "rgba(196, 43, 16, 1)",
               textShadow:
@@ -76,7 +76,7 @@ const ContractSection = () => {
         <div className="w-full max-w-2xl">
           <div className="relative flex justify-center items-center">
             <div
-              className="flex w-full max-w-xl h-16 px-4 py-2 justify-center items-center rounded-full border-4 border-black bg-white bg-opacity-90 shadow-[6px_6px_0_0_#000] backdrop-blur-sm cursor-pointer hover:bg-opacity-100 hover:shadow-[8px_8px_0_0_#000] hover:scale-105 transition-all duration-200 active:scale-95"
+              className="flex w-full max-w-xl h-16 px-4 py-2 justify-center items-center rounded-full border-4 border-black bg-white bg-opacity-90 shadow-[6px_6px_0_0_#000] backdrop-blur-sm cursor-pointer hover:bg-opacity-100 hover:shadow-[8px_8px_0_0_#000] hover:scale-105 transition-all duration-200 active:scale-95 sm:w-full w-[200%]"
               onClick={handleCopy}
               title="Click to copy contract address"
             >
@@ -89,7 +89,7 @@ const ContractSection = () => {
                     <p className="text-green-600 font-semibold">Text Copied!</p>
                   ) : (
                     <p>
-                      CA<span style={{ fontSize: "18px" }}>: SOON</span>
+                      <span className="sm:text-[inherit] text-[18px]">CA</span><span style={{ fontSize: "18px" }}>: SOON</span>
                     </p>
                   )}
                 </span>
