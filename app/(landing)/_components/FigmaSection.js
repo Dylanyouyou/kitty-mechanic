@@ -8,19 +8,17 @@ const FigmaSection = () => {
       {/* Empty header space */}
       <header className="font-normal left-1/2 max-w-6xl fixed top-5 w-full z-50 transform -translate-x-1/2 pointer-events-auto px-4" />
       
-      {/* Main Container */}
-      <div className="flex items-center bg-white font-normal h-[730.4px] justify-center overflow-hidden relative w-full pointer-events-auto">
+      {/* Main Red Section */}
+      <section className="flex flex-col bg-red-600 font-normal min-h-[800px] overflow-hidden relative w-full pointer-events-auto">
         
-        {/* Radial Background */}
-        <div className="flex font-normal h-[2400px] justify-center left-1/2 absolute top-1/2 w-[2400px] transform -translate-x-1/2 -translate-y-1/2 pointer-events-auto bg-red-600">
-          <div className="font-normal pointer-events-auto">
+        {/* Background Pattern */}
+        <div className="flex items-center absolute bottom-0 font-normal justify-center left-0 right-0 top-0 pointer-events-auto">
+          <div className="font-normal h-[1800px] max-h-[2400px] max-w-[2400px] relative w-[1800px] pointer-events-auto">
             <svg
-              width="2400"
-              height="1982"
               viewBox="0 0 2400 1982"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="block fill-none font-normal h-[1981px] left-[1526px] overflow-clip-margin-content-box overflow-hidden absolute top-[-348px] w-[2400px] pointer-events-auto"
+              className="block fill-none font-normal h-full overflow-clip-margin-content-box overflow-hidden w-full pointer-events-auto"
             >
               <g clipPath="url(#clip0_61_263)">
                 <path
@@ -62,8 +60,12 @@ const FigmaSection = () => {
                 </clipPath>
               </defs>
             </svg>
+          </div>
+        </div>
 
-            {/* Top Middle Navigation Menu */}
+        {/* Navigation Header */}
+        <div className="font-normal relative z-20 pointer-events-auto">
+          <div className="font-normal max-w-5xl w-full pointer-events-auto mx-auto px-6 py-6">
             <div className="flex items-center font-normal gap-8 justify-between pointer-events-auto">
               <div className="flex items-center font-normal gap-4 pointer-events-auto">
                 <img
@@ -72,60 +74,63 @@ const FigmaSection = () => {
                   className="block rounded-full font-normal h-[75px] object-cover w-[75px] pointer-events-auto"
                 />
                 <h1 
-                  className="text-white text-center font-luckiest-guy text-[45px] font-normal leading-[72px]"
+                  className="text-white font-luckiest-guy text-[45px] font-normal leading-[40px]"
                   style={{
                     color: "#ffffff",
-                    textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
-                    WebkitTextStroke: "4px #000"
+                    textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000"
                   }}
                 >
                   KITTY
                 </h1>
               </div>
               
-              <nav className="w-auto">
-                <div className="flex flex-wrap items-center justify-center gap-1 bg-[#DDD6CC] border-3 border-black p-3">
-                  <a
-                    href="#about"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[33px] px-6 py-3"
-                  >
-                    ABOUT
-                  </a>
-                  <a
-                    href="#contract"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[33px] px-6 py-3"
-                  >
-                    CONTRACT
-                  </a>
-                  <a
-                    href="#tokenomics"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[33px] px-6 py-3"
-                  >
-                    TOKENOMICS
-                  </a>
-                  <a
-                    href="#buy"
-                    className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[33px] px-6 py-3"
-                  >
-                    HOW TO BUY
-                  </a>
-                </div>
-              </nav>
+              {/* Navigation Menu */}
+              <div className="flex items-center bg-[#DDD6CC] font-normal justify-end pointer-events-auto p-3">
+                <a
+                  href="#about"
+                  className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                >
+                  ABOUT
+                </a>
+                <a
+                  href="#contract"
+                  className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                >
+                  CONTRACT
+                </a>
+                <a
+                  href="#tokenomics"
+                  className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                >
+                  TOKENOMICS
+                </a>
+                <a
+                  href="#buy"
+                  className="text-black transition-colors font-luckiest-guy text-[22px] font-normal leading-[28px] px-6 py-3"
+                >
+                  HOW TO BUY
+                </a>
+              </div>
+              <nav className="font-normal pointer-events-auto" />
             </div>
+          </div>
+        </div>
 
-            {/* Main Content Grid */}
-            <div className="grid items-center font-normal gap-12 grid-cols-3 min-h-[438px] pointer-events-auto">
+        {/* Main Content Area */}
+        <div className="flex items-center flex-auto font-normal justify-center relative z-10 pointer-events-auto">
+          <div className="font-normal max-w-5xl w-full pointer-events-auto mx-auto px-8">
+            <div className="grid items-center font-normal gap-12 grid-cols-3 min-h-[428px] pointer-events-auto">
               
               {/* Left Column - Social Icons at Bottom */}
               <div className="flex items-center flex-col font-normal gap-6 justify-start order-1 pointer-events-auto">
-                {/* Social Icons Row at Bottom */}
-                <div className="flex gap-4 mt-auto">
+                {/* Social Icons positioned at bottom */}
+                <div className="flex gap-6 mt-auto">
                   {/* X/Twitter */}
                   <a
                     href="https://x.com/kittymechanic_"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center w-12 h-12 bg-gray-800 transition-colors rounded transform rotate-[5deg] hover:rotate-0 hover:scale-110 transition-transform duration-200"
+                    className="flex items-center bg-black rounded justify-center w-14 h-14 transform rotate-[5deg] transition-transform duration-200 hover:rotate-0 hover:scale-110"
                   >
                     <svg width="24" height="24" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clipPath="url(#clip0_61_313)">
@@ -142,7 +147,7 @@ const FigmaSection = () => {
                     href="https://www.instagram.com/kittymechanicc/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center w-12 h-12 bg-gray-800 transition-colors rounded transform rotate-[-5deg] hover:rotate-0 hover:scale-110 transition-transform duration-200"
+                    className="flex items-center bg-black rounded justify-center w-14 h-14 transform rotate-[-5deg] transition-transform duration-200 hover:rotate-0 hover:scale-110"
                   >
                     <svg width="24" height="24" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clipPath="url(#clip0_61_313)">
@@ -159,7 +164,7 @@ const FigmaSection = () => {
                     href="https://www.tiktok.com/@kittymechanic"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center w-12 h-12 bg-black transition-colors rounded transform rotate-[-5deg] hover:rotate-0 hover:scale-110 transition-transform duration-200"
+                    className="flex items-center bg-black rounded justify-center w-14 h-14 transform rotate-[-5deg] transition-transform duration-200 hover:rotate-0 hover:scale-110"
                   >
                     <svg width="26" height="26" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clipPath="url(#clip0_61_317)">
@@ -179,7 +184,12 @@ const FigmaSection = () => {
                   YOUR FAVORITE INTERNET CAT!
                 </div>
                 <div className="font-normal pointer-events-auto">
-                  <button className="bg-red-600 border-black border-4 shadow-[4px_4px_0_0_#000] text-white tracking-[1.5px] transition-transform duration-200 transform rotate-[-4deg] hover:rotate-0 hover:translate-y-[-2px] pointer-events-auto px-8 py-5 font-luckiest-guy text-[30px] leading-8">
+                  <button 
+                    className="bg-red-600 border-black border-4 shadow-[4px_4px_0_0_#000] text-white tracking-[1.5px] transition-transform duration-200 transform rotate-[-4deg] hover:rotate-0 hover:translate-y-[-2px] pointer-events-auto px-8 py-5 font-luckiest-guy text-[30px] leading-8"
+                    style={{
+                      fontFamily: "Luckiest Guy, -apple-system, Roboto, Helvetica, sans-serif"
+                    }}
+                  >
                     BUY NOW
                   </button>
                 </div>
@@ -188,26 +198,9 @@ const FigmaSection = () => {
               {/* Right Column - Empty */}
               <div className="font-normal order-3 pointer-events-auto" />
             </div>
-
-            {/* Central Cat Image */}
-            <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/846913a81551acd837f679e809345fd14f48cc6f?width=846"
-              alt=""
-              className="block aspect-square font-normal h-[288px] left-[987px] absolute top-[866px] w-[331px] pointer-events-auto"
-            />
           </div>
         </div>
-
-        {/* Text positioned absolutely */}
-        <div className="text-black h-[41px] left-[717px] absolute text-center whitespace-nowrap top-[816px] w-[486px] pointer-events-auto font-bold text-[27px] leading-[40.5px]">
-          YOUR FAVORITE INTERNET CAT!
-        </div>
-
-        {/* Button positioned absolutely */}
-        <div className="text-white h-[68px] left-[860px] tracking-[0.75px] absolute text-center">
-          {/* Button content will be here */}
-        </div>
-      </div>
+      </section>
     </div>
   );
 };
