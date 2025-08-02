@@ -23,18 +23,18 @@ const Hero = () => {
           {/* Main Heading */}
           <div className="flex flex-col items-start w-full">
             <h1
-              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight"
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight sm:h-auto h-[150px]"
               style={{
                 fontFamily:
                   'var(--font-luckiest-guy), "Luckiest Guy", -apple-system, Roboto, Helvetica, sans-serif',
                 color: "#C42B10",
                 textShadow: `
-                  4px 4px 0 #000, 
-                  6px 6px 0 #000, 
-                  0 4px 0 #000, 
-                  -2px -2px 0 #000, 
-                  -2px 2px 0 #000, 
-                  2px -2px 0 #000, 
+                  4px 4px 0 #000,
+                  6px 6px 0 #000,
+                  0 4px 0 #000,
+                  -2px -2px 0 #000,
+                  -2px 2px 0 #000,
+                  2px -2px 0 #000,
                   2px 2px 0 #000
                 `,
                 WebkitTextStroke: "2px #000",
@@ -43,10 +43,10 @@ const Hero = () => {
             >
               <span style={{ color: "rgba(255,255,255,1)" }}>
                 <br />
-                KITTY
+                <span className="sm:text-[inherit] text-[50px]">KITTY</span>
               </span>
               <br />
-              <span style={{ color: "rgba(196,43,16,1)" }}>THE MECHANIC</span>
+              <span style={{ color: "rgba(196,43,16,1)" }} className="sm:text-[inherit] text-[50px]">THE MECHANIC</span>
             </h1>
           </div>
 
@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
 
           {/* Buttons Container */}
-          <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-5 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-5 w-full sm:w-auto sm:ml-0 -ml-[1px]">
             {/* Buy Kitty Button */}
             <div
               className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer`}
@@ -87,7 +87,7 @@ const Hero = () => {
                   "_blank",
                 )
               }
-              className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer`}
+              className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer sm:pl-9 pl-[30px]`}
               style={{
                 borderRadius: "19.2px",
                 border: "3px solid #000",
