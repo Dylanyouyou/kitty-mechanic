@@ -58,7 +58,7 @@ const RadialHero = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8 ml-[13px]">
         {/* Central Cat Image */}
         <div className="relative mb-8 sm:mb-12">
           <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-black overflow-hidden shadow-[8px_8px_0_0_#000] bg-white">
