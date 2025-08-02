@@ -15,14 +15,15 @@ const FigmaSection = () => {
         {/* Red Section */}
         <section className="flex flex-col bg-red-600 font-normal min-h-[800px] overflow-hidden relative w-full pointer-events-auto">
           
-          {/* Background Pattern */}
-          <div className="flex items-center absolute bottom-0 font-normal justify-center left-0 right-0 top-0 pointer-events-auto">
-            <div className="font-normal h-[1800px] max-h-[2400px] max-w-[2400px] relative w-[1800px] pointer-events-auto">
+          {/* Background Rays Pattern */}
+          <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
+            <div className="relative w-full h-full max-w-[2400px] max-h-[2400px]">
               <svg
                 viewBox="0 0 2400 1982"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="block fill-none font-normal h-full overflow-clip-margin-content-box overflow-hidden w-full pointer-events-auto"
+                className="absolute inset-0 w-full h-full object-cover"
+                preserveAspectRatio="xMidYMid slice"
               >
                 <g clipPath="url(#clip0_61_263)">
                   <path
