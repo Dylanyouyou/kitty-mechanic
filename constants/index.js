@@ -1,1 +1,1 @@
-export const contractAddress = "SOON";
+export const contractAddress = "SOO";
