@@ -23,8 +23,10 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=png&width=32",
-    apple: "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=png&width=180",
+    shortcut:
+      "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=png&width=32",
+    apple:
+      "https://cdn.builder.io/api/v1/image/assets%2F87b1db0643374fe69850443dd80506a7%2Ff9c0af44e9f948bfa7967ad809320291?format=png&width=180",
   },
 };
 
