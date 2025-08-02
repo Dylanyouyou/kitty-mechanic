@@ -13,7 +13,7 @@ const AboutMomo = () => {
           {/* Heading */}
           <div className="mb-8">
             <h2
-              className="text-5xl md:text-6xl lg:text-7xl font-normal leading-tight font-luckiest-guy"
+              className="text-5xl md:text-6xl lg:text-7xl font-normal leading-tight font-luckiest-guy sm:text-6xl text-[50px]"
               style={{
                 color: "rgba(196, 43, 16, 1)",
                 textShadow:
