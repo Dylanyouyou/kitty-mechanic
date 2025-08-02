@@ -24,6 +24,8 @@ export default function Home() {
       {/* New Figma Hero Section */}
       <Hero />
 
+      <span className="block bg-duis border-red-900 border-[9.6px] h-[3px]"></span>
+
       {/* About MOMO Section */}
       <AboutMomo />
 
