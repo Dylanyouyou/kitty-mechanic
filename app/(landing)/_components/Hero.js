@@ -21,12 +21,13 @@ const Hero = () => {
       <div className="relative z-10 w-full max-w-7xl px-4 sm:px-8 lg:px-12 mx-auto">
         <div className="flex flex-col items-start gap-7 lg:gap-8">
           {/* Main Heading */}
-          <div className="flex flex-col items-start w-full">
+          <div
+            className="flex flex-col items-start w-full"
+            style={{ marginTop: "-2px" }}
+          >
             <h1
-              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight"
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight font-stopbuck"
               style={{
-                fontFamily:
-                  'var(--font-luckiest-guy), "Luckiest Guy", -apple-system, Roboto, Helvetica, sans-serif',
                 color: "#C42B10",
                 textShadow: `
                   4px 4px 0 #000, 
@@ -41,12 +42,7 @@ const Hero = () => {
                 lineHeight: "1",
               }}
             >
-              <span style={{ color: "rgba(255,255,255,1)" }}>
-                <br />
-                KITTY
-              </span>
-              <br />
-              <span style={{ color: "rgba(196,43,16,1)" }}>THE MECHANIC</span>
+              <span style={{ color: "rgba(196,43,16,1)" }}>CONTRACT</span>
             </h1>
           </div>
 
